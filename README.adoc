@@ -69,6 +69,6 @@ To install from source, see the link:doc/development.adoc[development] instructi
 === Bash completion
 
 Experimental Bash completion for the command line tool is available, but not 
-enabled by default. To enable it, run this command once:
+enabled by default. To enable it, run this command once: 
 
     $ source <(_YKMAN_COMPLETE=source ykman | sudo tee /etc/bash_completion.d/ykman)

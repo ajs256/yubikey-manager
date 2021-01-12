@@ -18,8 +18,8 @@ jobs:
           pip install tox
           pip install .
 
-      - name: Run unit tests
-        run: tox -- -v
+#       - name: Run unit tests
+#         run: tox -- -v
 
       - name: Run CLI
         run: |

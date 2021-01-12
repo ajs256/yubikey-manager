@@ -25,3 +25,8 @@ jobs:
         run: |
           ykman --version
           [[ -z "$(ykman --version | grep -E "not found|missing")" ]]
+          
+      - uses: actions/upload-artifact@v2.2.2
+        with:
+          name: built
+          path: $(which ykman)
